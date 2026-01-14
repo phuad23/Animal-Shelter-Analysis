@@ -41,14 +41,17 @@ below is the data model of this project
 
 After doing the data modeling, then i created some measures using DAX formular to answer some of the question asked.
 
-1. 	How do total sales change by month?
-   To answer this question, i created a line chart to visualize the month against the total revenue. By this, you can toggle among the month to see how sales changes on monthly basis.
+1. 	How do intake and outcome volumes change over time?
+   To answer this question, i created a line chart to visualize the month against Total Intake and Total Outcome. By this, you can toggle among the month to see how Intakes and Outcomes changes on monthly basis.
 
-2. 	Which channels bring in the most sales?
-   To answer this question, i created a Clustered Bar chart to visualize the Total Revenue against the sales channel to see the channel that bring in more sales.
 
-3. Which channels bring the most repeat (loyal) customers?
-   To answer this question, i created a Stacked Bar chart to visualize the Sales Channel against the Loyal (repeat) Customers. mind you, i already use DAX formula to calculate the loyal customer. i based my loyal customers on customer who has patronized more than once.
+2. 	Which animals face longer shelter stays or higher risk of non-live outcomes?
+   To answer this question, i created a Stacked Column Chart to visualize the animals with average lenght of stay. Rabbit is the Animal with the highest lenght of Stay followed by Guinea Pig.
+
+
+3. Which types of pets are adopted most often?
+   To answer this question, i created a Stacked Column chart to visualize the most adopted pet. Cat is the most adopted animal with adoption count of 5870 followed by Dog with adoption count of 4401.
+
 
 4. What percent of monthly sales comes from loyal customers?
    To answer this question, i created a line chart to visualize Month against the Loyal Revenue in percentage. i used DAX formula to calcuate the Loyal Revenue %, to get this i Divided my Loyal Revenue by Total      Revenue to get the loyal revenue %.
