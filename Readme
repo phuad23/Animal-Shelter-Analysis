@@ -33,9 +33,9 @@ The data is not that messy so i checked for the duplicate value, missing value a
 
 **Step 4: Data Modelling**
 
-The data model was done joined the Facts table  which is the (Events Table) to the Dimension Tables which are (Products and Customers Table) based on their relationship.
+The data model was done and the table was joined based on their relationship. i created a Date Table which was joined to the Animal Shelter Operation Table based on the Date column.
 below is the data model of this project
-![](https://github.com/phuad23/E-Commerce-Analysis/blob/main/model.PNG)
+![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Data%20Model.PNG)
 
 **Step 5: Exploratory Data Analysis**
 
