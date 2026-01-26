@@ -10,8 +10,7 @@ I leveraged my DAX skills to create measures and generate insightful visualizati
 3. Data Cleaning
 4. Data Modeling
 5. Exploratory Data Analysis
-6. Insight
-7. Report Design
+6. Report Design
 
 Lets dive in!
 
@@ -67,38 +66,22 @@ After doing the data modeling, then i created some measures using DAX formular t
    ![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/intake%20source%20with%20highest%20volume.PNG)
 
 6. Are there animals that return to the shelter more than once?
-   To answer this question, i created a Clustered Column chart to visualize Animal Type against Repeat Animals. i created a DAX formula to calculate Repeat Animals.  
+   To answer this question, i created a Clustered Column chart to visualize Animal Type against Repeat Animals. i created a DAX formula to calculate Repeat Animals. Dog is the most animal that return to the         shelter more than once followed by Cat and Rabbit e.t.c
 
-7. Which products are most popular with loyal customers?
-   To answer this question, i created a Clustered Bar chart to visualize Product name against the Loyal Customers to see which product is more common or popular among the loyal (repeat) customers.
-
-8. How long do customers wait before their second purchase?
-   To answer this question, i created a Stacked Bar chart to visualize the Segment against Average Days to Second Purchase. This Avergae Days to Second Purcahse was calcluated using DAX formular, i first calcukated the first purchase and second purchase date, after which their difference is the days to second purchase, then i used AverageX function to calcuate the Average Days to Second Purchase and Values of the Events(customer_id).
+   ![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Repeat%20Animals.PNG)
 
 All the question was answered and visualized with the necessary charts.
 
-**Step 6: Insights**
-1. in 2024, the total revenue generated was $14.57 million, while the total unit sold was 135,000 and the average selling price for 2024 was $108.1
-2. From the Line Chart of the Revenue Trends, The month with the highest revenue is july which generated $3,685,397.24.
-Also it was discovered that in the year 2024  the sales started from April, November is the month that generated the highest revenue of $1,794,931 while April generated the least revenue of $500,500.9 while in 2025 July is the month that generated the highest revenue of $1,930,917.34 and October generated the least revenue of $1,229,646.09.
-4. Website is the channel that generated the highest revenue of about $14.4million  and also brought the highest loyal customer of 3851 while Partner generated the least reevenue of about $3.3million and also brought the least loyal customer of 1360.
-5. The product with the highest revenue is Microsoft 365 Business Standard Annual which generate about $1,630,479.22 while AI Assistant Add-on monthly generated the lowest revenue of $27,306.57.
-6. The top product that generated the highest revenue among loyal customers is Datadog Pro Annual which generated about $59,594.58 while FreshDeck Growth Monthly generated the least revenue of $64.48.
-7. The Average days to second purchase of customer was categorized by Customer Segment. so, the average days to second purcahse of Consumer is 255 days, the average days to second purcahse of SOHO is 254 days, the average days to second purcahse of SMB is 251 days and the average days to second purcahse of Enterprise is 250 days.
-8. Germany is the country with the highest average selling price of $125 while Australia is the country with the lowest average selling price of $107.
-9. The billing cycle that generated the highest revenue per customer is Annual Subscription with revenue of $7,041.69 while Monthly Subscription generated the least revenue per customer of $698.86.
-10. The Region that generated the highest revenue per customer is LATAM (Latin America) of about $8,679.12 while North America generated the least revenue per customer of $7,230.37.
+**Step 6: Report Design**
 
-**Step 7: Report Design**
+I created some KPI's which are Card visuals, the following KPI's are created: Total Intakes, Total Outcomes, Live Release Rate %, Death Rate, Average Length of Stay, Animals in Shelter, Adoption Rate, Euthanasia Rate, Repeat Animal Rate, Transfer Rate, Return to Owner Rate. 
+A line charts of Intake and Outcome Trend was created, a donut chart of Total Intakes by sex was created, a stacked column chart of total intake by Age category was created.
 
-I created some KPI's which are Card visuals, the following KPI's are created: Total Revenue, Loyal Customers, Unit Sold and Average Selling Price. 
-A line chart of Revenue Trend was created, i added a parameter named KPI into the line chart so as to toggle between the following KPI, Total Revenue, Unit Sold and Total Order against the month column.
+Conclusively, I put all the visuals of the question asked into a report template. The Report has 2 Pages, i created a “Overview” page which is the Home Page and provided users with quick access to navigate between pages in the report while the other page is Adoption Analysis Page.
 
-Conclusively, I put all the visuals of the question asked into a report template. The Report has 3 Pages, i created a “Overview” page which is the Home Page and provided users with quick access to navigate between pages in the report. The other 2 pages are Customer Page and Product & Channel Page.
+Below are the images of the 2 Page Reports.
+![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Overview.PNG)
+![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Adoption.PNG)
 
-Below are the images of the 3 Page Reports.
-![](https://github.com/phuad23/E-Commerce-Analysis/blob/main/image.PNG)
-![](https://github.com/phuad23/E-Commerce-Analysis/blob/main/Customer%20Analysis.PNG)
-![](https://github.com/phuad23/E-Commerce-Analysis/blob/main/Product%20%26%20Channel%20Analysis.PNG)
 
-Click [Here](https://app.powerbi.com/links/S-mZN2FIYa?ctid=d5bc17d2-4910-4403-86b9-672f3274f2f9&pbi_source=linkShare) to interact with the dashboard. You can also view the pdf of the final report [Here](https://github.com/phuad23/E-Commerce-Analysis/blob/main/E%20commerce%20Dashboard.pdf) 
+Click [Here](https://app.powerbi.com/links/kkPO4N8oaU?ctid=d5bc17d2-4910-4403-86b9-672f3274f2f9&pbi_source=linkShare) to interact with the dashboard. 
