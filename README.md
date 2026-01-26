@@ -44,27 +44,35 @@ After doing the data modeling, then i created some measures using DAX formular t
 
 1. 	How intake and outcome patterns evolve over time?
    To answer this question, i created a line chart to visualize the month against the Intakes and Outcomes Trend. By this, you can toggle among the month to see how intake and outcome changes on monthly basis.
+
    ![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Intake%20and%20Outcome%20trends.PNG)
 
 2.  Which animals face longer shelter stays or higher risk of non-live outcomes?
-   To answer this question, i created a clustered column chart to visualize Animal against Average length of stay.
+   To answer this question, i created a clustered column chart to visualize Animal type against Average length of stay. Rabbit is the animal with the highest length of stay followed by Guinea Pig, Cat e.t.c
+   ![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Animal%20LOS.PNG)
 
-4. 	Which channels bring in the most sales?
-   To answer this question, i created a Clustered Bar chart to visualize the Total Revenue against the sales channel to see the channel that bring in more sales.
+3. Which types of pets are adopted most often?
+   To answer this question, i created a Stacked Column chart to visualize Animal Type against Adoption Count. i created a DAX measure for adoption count, which i potted against Animal type. Cat is the most           adopted pet followed by dog.
 
-5. Which channels bring the most repeat (loyal) customers?
-   To answer this question, i created a Stacked Bar chart to visualize the Sales Channel against the Loyal (repeat) Customers. mind you, i already use DAX formula to calculate the loyal customer. i based my loyal customers on customer who has patronized more than once.
+   ![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Adoption%20pet.PNG)
 
-6. What percent of monthly sales comes from loyal customers?
-   To answer this question, i created a line chart to visualize Month against the Loyal Revenue in percentage. i used DAX formula to calcuate the Loyal Revenue %, to get this i Divided my Loyal Revenue by Total      Revenue to get the loyal revenue %.
+4. Which species, age groups, or breed types have higher or lower live-outcome rates??
+   To answer this question, i created a Clustered Column chart to visualize Animal Type against Live Outcome Rate. mind you, i already use DAX formula to calculate live outcome rate. Amphibian is the animal with    the high live outcome rate followed by Livestock the  Guinea pig e.t.c.
+ 
+   ![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Animal%20with%20high%20LOR.PNG)
 
-7. Which products or plans sell the most?
-   To answer this question, i created a Stacked Bar chart to visualize Total Revenue against the Product name to see the product that generated the highest revenue.
+5. Which intake sources contribute the largest volumes, and what does this imply for community outreach or prevention programs?
+   To answer this question, i created a Clustered Column chart to visualize Intake Type against Total Intake. Animal that strayed into the Animal shelter has the highest number followed by animal from wildlife      e.t.c.
+ 
+   ![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/intake%20source%20with%20highest%20volume.PNG)
 
-8. Which products are most popular with loyal customers?
+6. Are there animals that return to the shelter more than once?
+   To answer this question, i created a Clustered Column chart to visualize Animal Type against Repeat Animals. i created a DAX formula to calculate Repeat Animals.  
+
+7. Which products are most popular with loyal customers?
    To answer this question, i created a Clustered Bar chart to visualize Product name against the Loyal Customers to see which product is more common or popular among the loyal (repeat) customers.
 
-9. How long do customers wait before their second purchase?
+8. How long do customers wait before their second purchase?
    To answer this question, i created a Stacked Bar chart to visualize the Segment against Average Days to Second Purchase. This Avergae Days to Second Purcahse was calcluated using DAX formular, i first calcukated the first purchase and second purchase date, after which their difference is the days to second purchase, then i used AverageX function to calcuate the Average Days to Second Purchase and Values of the Events(customer_id).
 
 All the question was answered and visualized with the necessary charts.
