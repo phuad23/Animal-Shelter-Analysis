@@ -84,4 +84,4 @@ Below are the images of the 2 Page Reports.
 ![](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Adoption.PNG)
 
 
-Click [Here](https://app.powerbi.com/links/kkPO4N8oaU?ctid=d5bc17d2-4910-4403-86b9-672f3274f2f9&pbi_source=linkShare) to interact with the dashboard. 
+Click [Here](https://github.com/phuad23/Animal-Shelter-Analysis/blob/main/Animal%20Shelter%20Analysis.pbix) to download the dashboard for perusal. 
